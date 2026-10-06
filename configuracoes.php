@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+
         <!-- Menu -->
         <nav>
 
             <!--Perfil-->
             <div class="sidebar">
                 <div class="PerfilMenu">
-                <img src="css/perfil_.jpeg" class="imgPerfil" style="width: 45px !important; height: 45px !important; border-radius: 15%; object-fit: cover;>
+                <img src="css/perfil_.jpeg" class="imgPerfil" style="width: 45px !important; height: 45px !important; border-radius: 15%; object-fit: cover">
                 <span class="perfilName">Fulano de Tal</span>
             </div>
+
 
 
             <div class="sidebar-content">
@@ -25,7 +28,7 @@
                     <!--Opções-->
                     <!-- Opção Home -->
                     <li class="list">
-                        <a href="index.php" class="nav-link">
+                        <a href="home.php" class="nav-link">
                             <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
                             fill="#464646ff" viewBox="0 0 24 24" class="icon" >
                             <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
@@ -34,6 +37,8 @@
                             <span class="link">Home</span>
                         </a>
                     </li>
+
+
 
                     <!-- Opção Entradas e Saídas-->
                     <li class="list">
@@ -47,6 +52,8 @@
                         </a>
                     </li>
 
+
+
                     <!--Opção Metas-->
                     <li class="list">
                         <a href="metas.php" class="nav-link">
@@ -58,6 +65,8 @@
                             <span class="link">Metas</span>
                         </a>
                     </li>
+
+
 
                     <!--Opção Dívidas-->
                     <li class="list">
@@ -71,6 +80,9 @@
                         </a>
                     </li>
 
+
+
+
                     <div class="Others">
                         <li class="list">
                             <a href="configuracoes.php" class="nav-link">
@@ -82,8 +94,11 @@
                                 <span class="link">Configurações</span>
                             </a>
                         </li>
+
+
+                        
                         <li class="list">
-                            <a href="#" class="nav-link">
+                            <a href="index.php" class="nav-link">
                                 <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
                                 fill="#464646ff" viewBox="0 0 24 24" >
                                 <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
