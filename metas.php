@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Metas</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -73,7 +73,7 @@
 
                     <div class="Others">
                         <li class="list">
-                            <a href="configuracoes.php" class="nav-link">
+                            <a href="configuracoes" class="nav-link">
                                 <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
                                 fill="#464646ff" viewBox="0 0 24 24" >
                                 <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->

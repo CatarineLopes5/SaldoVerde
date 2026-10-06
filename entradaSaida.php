@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-
+    <title>Finanças Pessoais</title>
     <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
-        <!-- Menu -->
+    
+    <!-- Menu -->
         <nav>
 
             <!--Perfil-->
@@ -23,7 +24,7 @@
                 <ul class="lists">
 
                     <!--Opções-->
-                    <!-- Opção Home -->
+                    <!-- Opção HOme -->
                     <li class="list">
                         <a href="index.php" class="nav-link">
                             <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
@@ -99,5 +100,59 @@
 
     </nav>
 
+        <header>
+            <h1>Meu Controle Financeiro</h1>
+        </header>
+
+        <main class="container">
+            <section class="resumo">
+                <div class="card entrada">
+                    <h2>Entradas</h2>
+                    <p id="total-entrad+as">R$ 0,00</p>
+                </div>
+                <div class="card saida">
+                    <h2>Saidas</h2>
+                    <p id="total-saidas">R$ 0,00</p>
+                </div>
+                </div class="card total">
+                    <h2>Saldo Total</h2>
+                <p id="Saldo Total">R$ 0,00</p>
+                </div>
+            </section>
+
+            <section class="formulario">
+                <h3>Nova Transacao</h3>
+                <form id="form-transacao">
+                    <input type="text" id="descricao"placeholder="Descrição" required>
+                    <input type="number" id="valor" placeholder="Valor (R$)" step="0.01" required>
+                    <select id="tipo">
+                        <option value="entrada">Entrada</option>
+                        <option value="saida">Saída</option>
+                    </select>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </section>
+
+        </section>
+        <h3>Historico de Lançamentos</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-corpo">
+                <tbody>
+                </table>
+        </section>
+        </main> 
+</div>
+    </div>
 </body>
 </html>
+        
+
+    
+
