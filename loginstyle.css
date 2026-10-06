@@ -1,0 +1,147 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppings", sans-serif;
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #81e0c0, #7fa89a);
+    position: relative;
+ }
+
+ .estrelas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+          radial-gradient(1px 1px at 25% 15%,#fff, transparent),
+          radial-gradient(1px 1px at 50% 40%,#fff,transparent),
+          radial-gradient(2px 2px at 15% 55%,#fff,transparent),
+          radial-gradient(1px 1px at 70% 25%,#fff,transparent),
+          radial-gradient(1.5px 1.5px at 85% 60%,#fff,transparent),
+          radial-gradient(1px 1px at 35% 75%,#fff,transparent),
+          radial-gradient(1.5px 1.5px at 90% 10%,#fff,transparent),
+          radial-gradient(2px 2px at 5% 30%,#fff,transparent),
+          radial-gradient(1px 1px at 60% 85%,#fff,transparent),
+          radial-gradient(1.5px 1.5px,at 40% 5%,#fff,transparent);
+ }
+ .formulario {
+    width: 400px;
+    background-color: rgba(255,255,255, 0.15);
+    border: 1px solid rgba(255,255,255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 16px;
+    padding: 35px;
+ }
+
+ .formulario h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+ }
+
+ .caixa-formulario{
+    position: relative;
+    margin-bottom: 30px;
+ }
+ 
+ .caixa-formulario input {
+    width: 100%;
+    height: 50%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background-color: rgba(255,255,255, 0.1);
+    font-size: 16px;
+    padding: 0 20px;
+ }
+
+ .caixa-formulario input::placeholder{
+    color: rgba(255,255,255, 0.6);
+ }
+
+ .caixa-formulario i {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 25%;
+ }
+
+ .caixa-lembrar-esqueci{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 16px;
+ }
+
+ .caixa-lembrar-esqueci label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+
+ .caixa-lembrar-esqueci label input {
+    accent-color: rgb(129, 216, 208);
+ }
+
+
+ .caixa-lembrar-esqueci a {
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .caixa-lembrar-esqueci a:hover{ 
+    text-decoration: underline;
+ }
+
+ button {
+    width: 100%;
+    height: 45%;
+    background-color: rgba(255,255,255, 0.9);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #81e0c0;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+ }
+
+ button:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+ }
+
+.link-registro {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+ }
+
+ 
+.link-registro a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.link-registro a:hover{
+    text-decoration: underline;
+}
