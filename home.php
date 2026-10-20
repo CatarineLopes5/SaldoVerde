@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +19,7 @@
             <div class="sidebar">
                 <div class="PerfilMenu">
                 <img src="css/perfil_.jpeg" class="imgPerfil" style="width: 45px !important; height: 45px !important; border-radius: 15%; object-fit: cover">
-                <span class="perfilName">Fulano de Tal</span>
+                <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span>
             </div>
 
 

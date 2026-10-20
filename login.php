@@ -43,30 +43,31 @@
 
                 <div class="formulario">
                     <h1>Login</h1>
-                    <form action="#">
+                    <form action="processoLogin.php" method="POST">
                         <div class="mb-3">
                             <div class="caixa-formulario">
-                                
-                                <input type="text" placeholder="Digite seu nome de usuário" required>
+                                <label for="user"></label>
+                                <input type="text" placeholder="Digite seu nome de usuário" name="userlogin"required>
                                 <i class='bx bxs-user'></i>
                             </div>
                             
 
                         <div class="caixa-formulario">
-                            <input type="password" placeholder="Senha" required>
+                            <label for="pass"></label>
+                            <input type="password" placeholder="Senha" required name="passlogin">
                             <i class='bx bxs-lock-alt'></i>
                         </div>
 
                             
                         <div class="caixa-lembrar-esqueci">
                             <label><input type="checkbox"> Lembrar</label>
-                            <a href="#">Esqueci minha senha</a>
+                            <a href="cadastro.php">Esqueci minha senha</a>
                         </div>
 
-                         <button onclick="window.location.href='home.php'" type="button" class="btn">Entrar</button>
+                         <button type="submit" class="btn">Entrar</button>
 
                         <div class="Link-registro">
-                            <p>Não tem conta? <a href="#">Registrar</a> </p>
+                            <p>Não tem conta? <a href="cadastro.php">Registrar</a> </p>
                         </div>
                     </form>
 

@@ -37,24 +37,27 @@
 
                 <div class="formulario">
                     <h1>Cadastro</h1>
-                    <form action="#">
+                    <form action="processoCadastro.php" method="POST">
                         <div class="mb-3">
                             <div class="caixa-formulario">
                                 
-                                <input type="text" placeholder="Digite seu nome de usuário" required>
+                                <label for="user"></label>
+                                <input type="text" placeholder="Digite seu nome de usuário" name="user" required >
                             </div>
 
                             <div class="caixa-formulario">
                                 
-                                <input type="text" placeholder="Digite seu email" required>
+                                <label for="email"></label>
+                                <input type="text" placeholder="Digite seu email" required name="email">
                             </div>
                             
 
                         <div class="caixa-formulario">
-                            <input type="password" placeholder="Senha" required>
+                            <label for="pass"></label>
+                            <input type="password" placeholder="Digite sua Senha" required name="pass">
                         </div>
 
-                         <button onclick="window.location.href='login.php'" type="button" class="btn">Cadastrar</button>
+                         <button type="submit" class="btn">Cadastrar</button>
 
                         <div class="link-registro">
                             <p>Ja possui uma conta? <a href="login.php">Faça seu login</a> </p>
