@@ -8,7 +8,7 @@
  body{
     min-height: 100vh;
     background-color: #fff;
-    color: #333;
+    color: #ffffff;
     padding-top: 40px;
     border-radius: 25px;
 }
@@ -29,7 +29,7 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
-    background: #27b2d4;
+    background: #00a782;
 }
 
 nav .PerfilMenu{
@@ -58,7 +58,7 @@ nav .sidebar{
     height:100%;
     width: 250px;
     padding:20px 0px;
-    background-color: #27b2d4;
+    background-color: #00a782;
 
 } 
 
@@ -80,7 +80,7 @@ nav .sidebar{
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
-    color:#464646ff;
+    color:#ffffff;
 }
 
 .Others{
@@ -90,11 +90,11 @@ nav .sidebar{
 
 .nav-link:hover{
     background-color: #fff;
-    color:#333;
+    color:#00a782;
 }
 
 .nav-link:hover .icon{
-    color:#333;
+    color:#00a782;
 }
 
 .nav-link .icon{
@@ -114,8 +114,8 @@ nav .sidebar{
 } */
 
  header{
-    background-color: #007bff;
-    color: white;
+    background-color: #ffffff;
+    color: #00a782;
     text-align: center;
     padding: 1.5rem;
 }
