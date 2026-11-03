@@ -2,76 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
  body{
-    min-height: 100vh;
-    background-color: #fff;
-    color: #ffffff;
-    padding-top: 40px;
-    border-radius: 25px;
+    background-color: rgb(220, 255, 233);;
+    color: #00a782;
+
 }
 
-.conteudoGeral{
-    display:flex;
-    min-height: 100vh;
-    width:100%;
-}
 
+/* MENU LATERAL */
 nav{
-    flex-shrink: 0;
-    padding: 20px;
-    position: fixed;
+    height: 100%;
+    width: 230px;
     top: 0;
     left:0;
-    height: 20px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background: #00a782;
-}
-
-nav .PerfilMenu{
-    display:flex;
-    align-items: center;
-    margin: 0 24px;
-    margin-top: 25px;
-    margin-bottom: 35px;
-
-}
-
-.PerfilMenu .imgPerfil{
-    width:45px;
-    height: 45px;
-    border-radius: 25px;
-    object-fit: cover;
-    margin-right:14px;
-    cursor: pointer;
-    font-size:24px;
-}
-
-nav .sidebar{
+    padding: 0px;
     position:fixed;
-    top:0;
-    left:0;
-    height:100%;
-    width: 250px;
-    padding:20px 0px;
-    background-color: #00a782;
-
-} 
-
-.sidenar .sidebar-content{
-    padding: 30px 16px;
-
-}
-
-.sidebar-content .list{
-    list-style:none;
+    margin:25px 0 0 25px;
+    background-color: #fff;
+    transition:ease-in-out 0.3s;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 
+/* LOGO DO MENU */
+.sidenav img{
+    margin:10px 30px;
+    display:block; 
+    align-items:center;
+    padding: 10px 12px;
+}
+
+
+/* OPÇÕES DO MENU */
 .list .nav-link {
     display:flex;
     align-items:center;
@@ -80,17 +46,24 @@ nav .sidebar{
     border-radius: 8px;
     text-decoration: none;
     text-align: center;
-    color:#ffffff;
+    color:#00a782;
 }
 
-.Others{
-    padding-top:300px;
+.list .nav-link-active {
+    display:flex;
+    align-items:center;
+    padding: 10px 12px;
+    margin: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #00a782;
+    color:#fff;
 }
-
 
 .nav-link:hover{
-    background-color: #fff;
-    color:#00a782;
+    background-color: #00a782;
+    color:#fff;
 }
 
 .nav-link:hover .icon{
@@ -106,25 +79,71 @@ nav .sidebar{
     padding-top: 5px;
 }
 
-/* .conteudoPrincipal{
-    flex-grow:1;
-    padding: 20px;
+/* 
+CABEÇALHO DA PAGINA */
 
+#main{
+    padding: 16px;
+    margin-left: 270px;
+}
 
-} */
+.container-header{
+    padding: 30px 1px;
+    border-bottom: 1px solid #d6d6d8b8;
+    padding-bottom: 10px;
+}
 
- header{
-    background-color: #ffffff;
+.nav{
     color: #00a782;
-    text-align: center;
-    padding: 1.5rem;
-}
-.container{
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
 }
 
+.col-6{
+    width:50%;
+    float:left;
+}
+
+.profile{
+    display:flex;
+    float: right;
+    gap:12px;    
+    background: #fff;
+    padding:10px 25px;
+    border-radius: 10px;
+    justify-content: center; 
+    align-items: center; 
+    width: fit-content;
+}
+
+.pro-img{
+    max-width:40px;
+    max-height: 40px;
+    border-radius: 50%;
+    object-fit:cover;
+
+}
+
+.profile p{
+    color:#6c7293;
+    font-weight: 50px;
+    font-size: 18px;
+    margin:2px;
+    padding: 5px;
+    margin-left: 13px;
+    background-color: white;
+    border-radius: 25px;
+    
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+/*CONTEUDO DA PAGINA*/
 .resumo{
     display: flex;
     justify-content: space-between;
@@ -195,6 +214,26 @@ th, td{
     padding: 0.7rem;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+
+
+.container .PerfilMenu{
+    display:flex;
+    align-items: center;
+    margin: 0 24px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+
+.PerfilMenu .imgPerfil{
+    width:45px;
+    height: 45px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right:14px;
+    cursor: pointer;
+    font-size:24px;
 }
 
  
