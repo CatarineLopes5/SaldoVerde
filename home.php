@@ -57,7 +57,7 @@ session_start();
                 <!--Opção Dívidas-->
                 <li class="list">
                     <a href="dividas.php" class="nav-link">
-                         <span class="link">Deveres Finceiros </span>
+                         <span class="link">Pendencias </span>
                     </a>
                 </li>
 
@@ -97,7 +97,7 @@ session_start();
 
                  <div class="col-6">
                     <div class="profile">
-                        <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded="true"></i>
+                        <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded='true'"></i>
                         <img src="image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
                     </div>
                 </div>

@@ -1,11 +1,20 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finanças Pessoais</title>
+    <title>movimentacoes</title>
+
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="icon" type="image/png" href="img/iconeBranco.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
 </head>
 <body>
     
@@ -47,7 +56,7 @@
                 <!--Opção Dívidas-->
                 <li class="list">
                     <a href="dividas.php" class="nav-link">
-                         <span class="link">Deveres Finceiros </span>
+                         <span class="link">Deveres Financeiros </span>
                     </a>
                 </li>
 
@@ -73,28 +82,49 @@
         <!--</div> -->
     </nav>
 
+     <!--conteudoprincipal-->
+    <div id="main">
+        <div class="container-header">
+            <div class="row">
+                <div class="col-6">
+                    <p class="nav" style="font-size: 45px; font-weight:bold;">Movimentações</p>
+                </div>
 
-        <header>
-            <h1>Meu Controle Financeiro</h1>
-        </header>
-
-        <main class="container">
+                 <div class="col-6">
+                    <div class="profile">
+                        <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded='true'"></i>
+                        <img src="image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <section class="resumo">
                 <div class="card entrada">
-                    <h2>Entradas</h2>
-                    <p id="total-entrad+as">R$ 0,00</p>
+                    <h3>Entradas</h3>
+                    <p id="total-entradas">R$ 0,00</p>
                 </div>
                 <div class="card saida">
-                    <h2>Saidas</h2>
+                    <h3>Saidas</h3>
                     <p id="total-saidas">R$ 0,00</p>
                 </div>
-                </div class="card total">
-                    <h2>Saldo Total</h2>
-                <p id="Saldo Total">R$ 0,00</p>
+                <div class="card total">
+                    <h3>Saldo Total</h3>
+                    <p id="Saldo-Total">R$ 0,00</p>
                 </div>
-            </section>
+                <div class="card futuro">
+                    <h3>Reservado</h3>
+                    <p id="Saldo-futuro">R$ 0,00</p>
+                </div>
+                <div class="card guardado">
+                    <h3>Guardado</h3>
+                    <p id="Saldo-guardado">R$ 0,00</p>
+                </div>
 
-            <section class="formulario">
+            </section>
+        </div>
+
+         <section class="formulario">
                 <h3>Nova Transacao</h3>
                 <form id="form-transacao">
                     <input type="text" id="descricao"placeholder="Descrição" required>
@@ -120,10 +150,9 @@
             <tbody id="tabela-corpo">
                 <tbody>
                 </table>
-        </section>
-        </main> 
-</div>
     </div>
+
+
 </body>
 </html>
         
