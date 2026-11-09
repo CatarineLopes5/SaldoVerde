@@ -103,6 +103,31 @@ session_start();
                 </div>
             </div>
         </div>
+        <div class="container">
+            <section class="resumo">
+                <div class="card entrada">
+                    <h3>Entradas</h3>
+                    <p id="total-entradas">R$ 0,00</p>
+                </div>
+                <div class="card saida">
+                    <h3>Saidas</h3>
+                    <p id="total-saidas">R$ 0,00</p>
+                </div>
+                <div class="card total">
+                    <h3>Saldo Total</h3>
+                    <p id="Saldo-Total">R$ 0,00</p>
+                </div>
+                <div class="card futuro">
+                    <h3>Reservado</h3>
+                    <p id="Saldo-futuro">R$ 0,00</p>
+                </div>
+                <div class="card guardado">
+                    <h3>Guardado</h3>
+                    <p id="Saldo-guardado">R$ 0,00</p>
+                </div>
+
+            </section>
+        </div>
     </div>
 
 
