@@ -96,6 +96,75 @@
                 </div>
             </div>
         </div>
+
+
+
+        <!--Registros de Bancos-->
+        <section class="formulario">
+            <h3>Registre suas contas bancarias</h3>
+                <form id="form-transacao">
+                    <input type="text" id="nomeBanco"placeholder="Nome do Banco" required>
+                    <input type="number" id="saldo" placeholder="Saldo(R$)" step="0.01" required>
+                    <select id="tipo">
+                        <option value="entrada">Corrente</option>
+                        <option value="saida">Poupança</option>
+                    </select>
+                    <button type="submit">Adicionar</button>
+                </form>
+        </section>
+
+
+        
+        
+        <table>
+            <h3>Contas</h3>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Saldo</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <!-- <tbody id="tabela-corpo">
+                <tbody> -->
+        </table>
+
+
+
+
+        <!--Registros dos cartões-->
+        <section class="formulario">
+            <h3>Registre seus cartões</h3>
+                <form id="form-transacao">
+                    <input type="text" id="nomeCartao"placeholder="Nome do Cartão" required>
+                    <select id="banco"placeholder="Nome do Banco">
+                        <option value="bancotal">bancotal</option>
+                        <option value="bancotal">bancotal</option>
+                    </select>
+                    <select id="tipo">
+                        <option value="entrada">Débito</option>
+                        <option value="saida">Crédito</option>
+                    </select>
+                    <button type="submit">Adicionar</button>
+                </form>
+        </section>
+
+        
+        <table>
+            <h3>Cartões</h3>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Saldo</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <!-- <tbody id="tabela-corpo">
+                <tbody> -->
+        </table>
+
+
+
     </div>
     
 </body>

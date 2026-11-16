@@ -96,6 +96,15 @@
                 </div>
             </div>
         </div>
+
+        <!--header 2 -->
+        <div class="col-6">
+            <div class="headerB">
+                <h3>Registre suas metas financeiras<h3>
+
+                <button type="submit">Adicionar meta</button>
+            </div>
+        </div>
     </div>
 
 </body>
