@@ -49,8 +49,8 @@ session_start();
 
                 <!--Opção Dívidas-->
                 <li class="list">
-                    <a href="dividas.php" class="nav-link-active">
-                         <span class="link">Deveres Finceiros </span>
+                    <a href="pendencias.php" class="nav-link-active">
+                         <span class="link">Pendencias </span>
                     </a>
                 </li>
 
@@ -79,7 +79,7 @@ session_start();
         <div class="container-header">
             <div class="row">
                 <div class="col-6">
-                    <p class="nav" style="font-size: 45px; font-weight:bold;">Deveres Financeiros</p>
+                    <p class="nav" style="font-size: 45px; font-weight:bold;">Pendencias Financeiras</p>
                 </div>
 
                 <div class="col-6">

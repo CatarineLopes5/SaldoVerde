@@ -13,6 +13,8 @@ session_start();
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -56,7 +58,7 @@ session_start();
 
                 <!--Opção Dívidas-->
                 <li class="list">
-                    <a href="dividas.php" class="nav-link">
+                    <a href="pendencias.php" class="nav-link">
                          <span class="link">Pendencias </span>
                     </a>
                 </li>
@@ -91,7 +93,7 @@ session_start();
         <div class="container-header">
             <div class="row">
                 <div class="col-6">
-                    <p class="nav" style="font-size: 45px; font-weight:bold;">Dashboard</p>
+                    <p class="nav" style="font-size: 45px; font-weight:bold; margin-left:13px">Dashboard</p>
                 </div>
 
                  <div class="col-6">
