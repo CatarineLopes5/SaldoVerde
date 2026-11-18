@@ -60,15 +60,10 @@ session_start();
                     </a>
                 </li>
 
-                <!--Opção Configurações-->
-                <li class="list">
-                    <a href="configuracoes.php" class="nav-link"> 
-                        <span class="link">Configurações</span>
-                    </a>
-                </li>
+    
 
                 <!--Opção Saída-->
-                <li class="list">
+                <li class="list" style="margin-top:350px ">
                     <a href="index.php" class="nav-link">
                         <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffffff" viewBox="0 0 24 24" >
                         <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
@@ -92,8 +87,10 @@ session_start();
 
                  <div class="col-6">
                     <div class="profile">
-                        <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded='true'"></i>
-                        <img src="image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
+                         <a class="navbar-brand" href="configuracoes.php">              
+                            <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded='true'"></i>
+                            <img src="image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
+                        </a>
                     </div>
                 </div>
             </div>
