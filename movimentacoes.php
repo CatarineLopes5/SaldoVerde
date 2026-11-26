@@ -89,7 +89,7 @@ session_start();
                     <div class="profile">
                          <a class="navbar-brand" href="configuracoes.php">              
                             <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded='true'"></i>
-                            <img src="image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
+                            <img src="img/image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
                         </a>
                     </div>
                 </div>

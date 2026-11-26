@@ -6,7 +6,7 @@
 }
 
  body{
-    background-color: rgb(228, 252, 244);;
+    background-color: rgb(228, 252, 237);;
     color: #00a782;
 
 }
@@ -91,6 +91,7 @@ CABEÇALHO DA PAGINA */
     padding: 30px 1px;
     border-bottom: 1px solid #d6d6d8b8;
     padding-bottom: 10px;
+    
 }
 
 .nav{
@@ -112,6 +113,7 @@ CABEÇALHO DA PAGINA */
     justify-content: center; 
     align-items: center; 
     width: fit-content;
+    margin-right:13px;
 }
 
 .pro-img{
@@ -131,7 +133,6 @@ CABEÇALHO DA PAGINA */
     margin-left: 13px;
     background-color: white;
     border-radius: 25px;
-    
     cursor:pointer;
 }
 
@@ -244,14 +245,16 @@ th, td{
     font-size:24px;
 }
 
-
-.headerB{
-    display: flex;
-    padding: 30px 1px;
-    border-bottom: 1px solid #d6d6d8b8;
-    padding-bottom: 10px;
+.container{
+    margin: 13px;
+    margin-top: 40px;
 }
-
+.container button{
+    float: right;
+    margin-right: 13px;
+    background-color:#00a782;
+    border-radius:5px;
+}
 
 
  

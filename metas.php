@@ -38,7 +38,7 @@ session_start();
 
                  <!--Opção Conta Bancarias-->
                 <li class="list">
-                    <a href="metas.php" class="nav-link">
+                    <a href="contas.php" class="nav-link">
                         <span class="link">Contas & cartões </span>
                     </a>
                 </li>
@@ -81,15 +81,15 @@ session_start();
     <div id="main">
         <div class="container-header">
             <div class="row">
-                <div class="col-6">
+                <div class="col align-self-start">
                     <p class="nav" style="font-size: 45px; font-weight:bold;  margin-left:13px">Minhas Metas</p>
                 </div>
 
-                 <div class="col-6">
+                 <div class="col align-self-end">
                     <div class="profile">
                          <a class="navbar-brand" href="configuracoes.php">              
                             <span class="perfilName"><?php echo $_SESSION['userCadastrado'];?></span><i class="bi bi-three-dots-vertical dots aria-expanded='true'"></i>
-                            <img src="image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
+                            <img src="img/image.png" class="pro-img" style="width: 40px !important; height: 40px !important; border-radius: 50%;">
                         </a>
                     </div>
                 </div>
@@ -97,13 +97,20 @@ session_start();
         </div>
 
         <!--header 2 -->
-        <div class="col-6">
-            <div class="headerB">
-                <h3>Registre suas metas financeiras<h3>
-
-                <button type="submit">Adicionar meta</button>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col align-self-start">
+                    <h3>Registre suas metas financeiras<h3>
+                </div>
+                <div class="col align-self-end">
+                    <button type="submit">Adicionar meta</button>
+                </div>
             </div>
         </div>
+
+
+        
     </div>
 
 </body>
